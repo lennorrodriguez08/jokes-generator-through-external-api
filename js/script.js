@@ -23,7 +23,7 @@ function generateJokes(e) {
 
     const xhr = new XMLHttpRequest();
 
-    xhr.open('GET', `http://api.icndb.com/jokes/random/${numberOfJokes}?firstName=Ronnel&lastName=Rodriguez`, true);
+    xhr.open('GET', `https://api.icndb.com/jokes/random/${numberOfJokes}?firstName=Ronnel&lastName=Rodriguez`, true);
 
     if (numberOfJokes === '' || numberOfJokes === '0') {
 
